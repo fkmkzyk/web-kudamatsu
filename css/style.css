@@ -1481,3 +1481,30 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
   }
 }
+
+/* ============================================
+   VOLUNTEER BANNER
+   ============================================ */
+.volunteer-banner {
+  background: rgba(124, 181, 160, 0.08);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-lg) 0;
+}
+
+.volunteer-banner h4 {
+  color: var(--color-primary-dark);
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.volunteer-banner p {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+  margin: 0;
+}
